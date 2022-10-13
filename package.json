@@ -5,8 +5,8 @@
     "build": "rollup -c && cp html/* dist",
     "serve": "http-server dist",
     "clean": "rm -rf dist",
-    "lint": "eslint --ext .js,.ts .",
-    "lint:fix": "eslint --ext .js,.ts --fix ."
+    "lint": "eslint --ext .js,.ts src",
+    "lint:fix": "eslint --ext .js,.ts --fix src"
   },
   "dependencies": {
     "lit": "^2.4.0"
