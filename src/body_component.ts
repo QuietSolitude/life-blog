@@ -18,4 +18,6 @@ export class BodyComponent extends LitElement {
     </p>
     <img src="./image/chapter-0-cover.png">`;
   }
+
 }
+
